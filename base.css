@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.accordion_box {
+
+    width: 48px;
+    background-color: white;
+    margin-right: 0;
+    display: inline-block;
+    }
+    
+    .accordion_box label {
+    
+    border-bottom: solid 1px white;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
+    cursor: pointer;  
+    
+    
+    font-weight: bold;
+    
+   
+
+    
+    
+    }
+    
+    .accordion_box input {
+    
+    display: none;
+    
+    }
+    
+    .accordion_box .accordion_contents {
+    
+    display: none;
+    width: 300px;
+    height: 220px;
+    
+    }
+    
+    .accordion:checked + .accordion_contents {
+    
+    display:block;
+    
+    border: solid 1px #ccc;
+    
+    margin: 0px;
+    
+    padding: 10px;
+
+    border-radius: 20px;
+    
+    }
+
+    .accordion_contents p{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+header {
+    height: 900px;
+}
+
+ 
+
+      
+ .header-title {
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}   
+
+
+.sub-title {
+    height: 700px;
+    background-image: url(/web-final/04cbd4da-8801-4d4e-94e0-f08a96176664.jpg);
+    position: relative;
+}
+.sub-title h3 {
+    position: absolute;
+}
+
+.sub-title p {
+    margin-top: 80px;
+    position: absolute;
+}
+.sub-title h2 {
+    margin-top: 180px;
+    position: absolute;
+    /* margin: auto ; */
+}
+
+body {
+    height: 5000px;
+
+}
+
+main {
+    text-align: center;
+}
+
+#main-title{
+    margin-top: 100px;
+}
+
+.intro-pic {
+    height: 500px;
+    width: auto;
+}
+
+.lyrics {
+    width: 450px;
+    padding: 25px;
+    display: inline;
+}
+
+.important {
+    border-bottom: solid 0.5px black;
+    padding-bottom: 0px;
+}
+
+
+
+footer nav {
+    float: right;
+}
+#copyright {
+    color: #999999;
+    font-size: 80%;
+    font-style: normal;
+    text-align: center;
+}
+#footer-back {
+    float: right;
+}
